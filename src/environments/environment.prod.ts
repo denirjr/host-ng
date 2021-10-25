@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  mf: {
+    mf1: 'http://production/mfe1remoteEntry.js',
+  },
 };
