@@ -14,7 +14,7 @@ const routes: Routes = [
     path: 'mfe1',
     loadChildren: () =>
       loadRemoteModule({
-        remoteEntry: environment?.mf?.mf1, //Remote dynamic URL
+        remoteEntry: environment.mf.mf1, //Remote dynamic URL
         remoteName: 'mfe1', // remote mf application
         exposedModule: './MfefeatureModule', // exposed module declared on mf webpack
       }).then((m) => m.MfefeatureModule),
